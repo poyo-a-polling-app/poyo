@@ -1,5 +1,5 @@
 # Poyo
-A location based polling application
+The location based polling application
 
 ##Required
 - [ ] As a poyoker, I can create a multiple choice poll with custom fields
