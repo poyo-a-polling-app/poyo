@@ -18,6 +18,8 @@ The location based polling application
 - [ ] Map view
 - [ ] Comments section based on anonymous characters
 - [ ] Private polling (using username distributed offline)
+- [ ] Leveling System based on amount of polos created
+- [ ] Ability to bump music
 
 ###Date Recording
 * Per User
