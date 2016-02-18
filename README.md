@@ -18,8 +18,9 @@ The location based polling application
 - [ ] Map view
 - [ ] Comments section based on anonymous characters
 - [ ] Private polling (using username distributed offline)
-- [ ] Leveling System based on amount of polos created
+- [ ] Leveling System based on amount of poyos created
 - [ ] Ability to bump music
+- [ ] Post images, videos, recordings
 
 ###Date Recording
 * Per User
