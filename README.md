@@ -30,5 +30,26 @@ The location based polling application
 * General
   * Amount of votes recently (per time)   
 
+##Data Fields:
 
+###User
+* Poyos ([NSDictionary])
+* Username
+* Password
+* Profile Picture
+* Location
+* user_id
 
+###Poyo
+* Question
+* Options ([NSDictionary])
+  * text
+  * amount_of_votes
+  * image
+* created_at
+* creator_id
+* poyo_id
+* public / private boolean
+* password (null for public)
+* end_time
+* number_of_answers
