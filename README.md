@@ -11,16 +11,15 @@ The location based polling application
 
 
 ##Optionals
-- [ ] User accounts (Recorded poyoker, but anonymous poyee)
-- [ ] Anonimity based on character
-- [ ] Animated graphs for results (Pie/Egg charts)
+- [ ] Private polling (using password distributed offline)
 - [ ] Color coded answer
 - [ ] Map view
+- [ ] User accounts (Recorded poyoker, but anonymous poyee)
 - [ ] Comments section based on anonymous characters
-- [ ] Private polling (using username distributed offline)
-- [ ] Leveling System based on amount of poyos created
-- [ ] Ability to bump polls
-- [ ] Post images, videos, recordings
+- [ ] Anonimity based on character
+- [ ] Animated graphs for results (Pie/Egg charts)
+- [ ] Images with options
+- [ ] Sort table view based on vote count
 
 ###Date Recording
 * Per User
