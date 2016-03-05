@@ -10,18 +10,18 @@ import UIKit
 import CoreLocation
 
 
-class listedPoyosViewController: UIViewController, CLLocationManagerDelegate {
+class listedPoyosViewController: UIViewController, CLLocationManagerDelegate, UITableViewDataSource, UITableViewDelegate {
     
-    @IBOutlet weak var longitudeLabel: UILabel!
-    @IBOutlet weak var latitudeLabel: UILabel!
-    @IBOutlet weak var kennedyDistLabel: UILabel!
-    @IBOutlet weak var rocketMiles: UILabel!
+    @IBOutlet weak var tableView: UITableView!
     
     var locationManager = CLLocationManager()
     var location: CLLocation!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.dataSource = self
+        tableView.delegate = self
         
         self.locationManager.requestAlwaysAuthorization()
         
@@ -52,11 +52,22 @@ class listedPoyosViewController: UIViewController, CLLocationManagerDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 20
+    }
+    
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("ListedPoyoViewCell", forIndexPath: indexPath) as! ListedPoyoViewCell
+        
+        return cell
+    }
+    
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         var latestLocation: AnyObject = locations[locations.count - 1]
         
-        latitudeLabel.text = String(format: "%.4f", latestLocation.coordinate.latitude)
-        longitudeLabel.text = String(format: "%.4f", latestLocation.coordinate.longitude)
+//        latitudeLabel.text = String(format: "%.4f", latestLocation.coordinate.latitude)
+//        longitudeLabel.text = String(format: "%.4f", latestLocation.coordinate.longitude)
         
         if location == nil {
             location = latestLocation as! CLLocation
@@ -67,10 +78,10 @@ class listedPoyosViewController: UIViewController, CLLocationManagerDelegate {
         var kennedy = CLLocation(latitude: 28.572646, longitude: -80.649024)
         var distanceFromKennedy: CLLocationDistance = location.distanceFromLocation(kennedy)
         var distanceMiles = distanceFromKennedy * 0.621371 / 1000
-        
-        kennedyDistLabel.text = String(format: "%.2f meters", distanceFromKennedy)
-        
-        rocketMiles.text = String(format: "%.2f miles", distanceMiles)
+//        
+//        kennedyDistLabel.text = String(format: "%.2f meters", distanceFromKennedy)
+//        
+//        rocketMiles.text = String(format: "%.2f miles", distanceMiles)
 
 
     }

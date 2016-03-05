@@ -31,36 +31,36 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/817-Dv-9po-view-i7J-vM-aGE.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			69KN1ukZiSnzzk7DSRDxz228wvg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+2Mz78hhVe28wqx6ZBF4BQgBejo=
+			+enlGW84BIINm2zezY+PmCdp9uI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/UIViewController-817-Dv-9po.nib</key>
+		<key>Base.lproj/Main.storyboardc/UITabBarController-5T9-jw-j9d.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IfE2jAM3ju8e0jyb0lF0Y1eNAGw=
+			4bPQzxMHtKbIXPwm/R/yxLuNokE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/k3L-oC-vA6-view-sDO-nQ-foA.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EwEhh7jqkFFePhkY5XQnzMjs2JM=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
-		tjBn6zEGz5WOorUleY7tH+XnjkA=
+		e+zcO6Aq5G/Zrez+Ry0FS4pCLho=
 		</data>
 		<key>Frameworks/Bolts.framework/Info.plist</key>
 		<data>
@@ -76,7 +76,7 @@
 		</data>
 		<key>Frameworks/Parse.framework/Parse</key>
 		<data>
-		Fvy8eDcToYw4sV0RBQJpj8xu2p0=
+		JksS8BHqo7gdbli4O4k9GU1BjZE=
 		</data>
 		<key>Frameworks/Parse.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -173,36 +173,36 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/817-Dv-9po-view-i7J-vM-aGE.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			69KN1ukZiSnzzk7DSRDxz228wvg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+2Mz78hhVe28wqx6ZBF4BQgBejo=
+			+enlGW84BIINm2zezY+PmCdp9uI=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/UIViewController-817-Dv-9po.nib</key>
+		<key>Base.lproj/Main.storyboardc/UITabBarController-5T9-jw-j9d.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IfE2jAM3ju8e0jyb0lF0Y1eNAGw=
+			4bPQzxMHtKbIXPwm/R/yxLuNokE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/k3L-oC-vA6-view-sDO-nQ-foA.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EwEhh7jqkFFePhkY5XQnzMjs2JM=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
-		tjBn6zEGz5WOorUleY7tH+XnjkA=
+		e+zcO6Aq5G/Zrez+Ry0FS4pCLho=
 		</data>
 		<key>Frameworks/Bolts.framework/Info.plist</key>
 		<data>
@@ -218,7 +218,7 @@
 		</data>
 		<key>Frameworks/Parse.framework/Parse</key>
 		<data>
-		Fvy8eDcToYw4sV0RBQJpj8xu2p0=
+		JksS8BHqo7gdbli4O4k9GU1BjZE=
 		</data>
 		<key>Frameworks/Parse.framework/_CodeSignature/CodeResources</key>
 		<data>

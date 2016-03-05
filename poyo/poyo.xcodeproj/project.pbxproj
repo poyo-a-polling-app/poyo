@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		165647941C8A921B00C73859 /* listedPoyosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165647931C8A921B00C73859 /* listedPoyosViewController.swift */; };
 		165647961C8A9E9B00C73859 /* locationFinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165647951C8A9E9B00C73859 /* locationFinderViewController.swift */; };
+		165647991C8AA0D400C73859 /* ListedPoyoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165647981C8AA0D400C73859 /* ListedPoyoViewCell.swift */; };
 		16AF95B01C8A658D00A2E244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AF95AF1C8A658D00A2E244 /* AppDelegate.swift */; };
 		16AF95B21C8A658D00A2E244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AF95B11C8A658D00A2E244 /* ViewController.swift */; };
 		16AF95B51C8A658D00A2E244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AF95B31C8A658D00A2E244 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 		04FA1A34DF97DBE152E64C2B /* Pods_poyo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_poyo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		165647931C8A921B00C73859 /* listedPoyosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listedPoyosViewController.swift; sourceTree = "<group>"; };
 		165647951C8A9E9B00C73859 /* locationFinderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = locationFinderViewController.swift; path = ../locationFinderViewController.swift; sourceTree = "<group>"; };
+		165647981C8AA0D400C73859 /* ListedPoyoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListedPoyoViewCell.swift; sourceTree = "<group>"; };
 		16AF95AC1C8A658D00A2E244 /* poyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = poyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16AF95AF1C8A658D00A2E244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16AF95B11C8A658D00A2E244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		165647971C8AA0A900C73859 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				165647981C8AA0D400C73859 /* ListedPoyoViewCell.swift */,
+			);
+			name = TableCells;
+			sourceTree = "<group>";
+		};
 		16AF95A31C8A658D00A2E244 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +77,7 @@
 		16AF95AE1C8A658D00A2E244 /* poyo */ = {
 			isa = PBXGroup;
 			children = (
+				165647971C8AA0A900C73859 /* TableCells */,
 				165647951C8A9E9B00C73859 /* locationFinderViewController.swift */,
 				16AF95AF1C8A658D00A2E244 /* AppDelegate.swift */,
 				16AF95B11C8A658D00A2E244 /* ViewController.swift */,
@@ -224,6 +235,7 @@
 				16AF95C21C8A897000A2E244 /* LoginViewController.swift in Sources */,
 				165647961C8A9E9B00C73859 /* locationFinderViewController.swift in Sources */,
 				16AF95B21C8A658D00A2E244 /* ViewController.swift in Sources */,
+				165647991C8AA0D400C73859 /* ListedPoyoViewCell.swift in Sources */,
 				16AF95B01C8A658D00A2E244 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
