@@ -31,29 +31,11 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4ySWPR3ER2UYGP7h1Wy28dh0lYs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PO+A8P8m3+6MDrB2Sv6NcnS0Mbc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			J4F+lsKpPRjZjmuoyxl75yP3oc4=
+			UlsthzqMXtYyBE6rJ6jkb/PLZRE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -62,7 +44,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mH5EP//2SV730rgUGHOzoOtDVBk=
+			3R+jSgBHSKWpUbdpE6YHYMUTd7Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -71,14 +53,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7MwzrwOMtrvxhqW1DEzUaGvrUDU=
+			53cAtGFDFgBDcN76PGE0Ur0U4+U=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
-		S+vIuiEOYdCDkclHsp5En5fD3LQ=
+		ljovPoIMPxqrCOphKRRDX6GsHPM=
 		</data>
 		<key>Frameworks/Bolts.framework/Info.plist</key>
 		<data>
@@ -94,7 +76,7 @@
 		</data>
 		<key>Frameworks/Parse.framework/Parse</key>
 		<data>
-		uGOAGmjTSkcXshJ9bPsfEhV937w=
+		palduvOzDy8MYRrstbYEZW+oFO0=
 		</data>
 		<key>Frameworks/Parse.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -151,7 +133,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		v1pR0Pqe/Ujr6AKiQ+Bn9e/smeQ=
+		vFo9L3tZEFIZFHlFETkwDNGR6Eo=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -191,29 +173,11 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4ySWPR3ER2UYGP7h1Wy28dh0lYs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PO+A8P8m3+6MDrB2Sv6NcnS0Mbc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			J4F+lsKpPRjZjmuoyxl75yP3oc4=
+			UlsthzqMXtYyBE6rJ6jkb/PLZRE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -222,7 +186,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mH5EP//2SV730rgUGHOzoOtDVBk=
+			3R+jSgBHSKWpUbdpE6YHYMUTd7Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -231,14 +195,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7MwzrwOMtrvxhqW1DEzUaGvrUDU=
+			53cAtGFDFgBDcN76PGE0Ur0U4+U=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
-		S+vIuiEOYdCDkclHsp5En5fD3LQ=
+		ljovPoIMPxqrCOphKRRDX6GsHPM=
 		</data>
 		<key>Frameworks/Bolts.framework/Info.plist</key>
 		<data>
@@ -254,7 +218,7 @@
 		</data>
 		<key>Frameworks/Parse.framework/Parse</key>
 		<data>
-		uGOAGmjTSkcXshJ9bPsfEhV937w=
+		palduvOzDy8MYRrstbYEZW+oFO0=
 		</data>
 		<key>Frameworks/Parse.framework/_CodeSignature/CodeResources</key>
 		<data>
