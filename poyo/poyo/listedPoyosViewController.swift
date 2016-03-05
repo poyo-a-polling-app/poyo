@@ -14,6 +14,8 @@ class listedPoyosViewController: UIViewController, CLLocationManagerDelegate {
     
     @IBOutlet weak var longitudeLabel: UILabel!
     @IBOutlet weak var latitudeLabel: UILabel!
+    @IBOutlet weak var kennedyDistLabel: UILabel!
+    @IBOutlet weak var rocketMiles: UILabel!
     
     var locationManager = CLLocationManager()
     var location: CLLocation!
@@ -59,6 +61,17 @@ class listedPoyosViewController: UIViewController, CLLocationManagerDelegate {
         if location == nil {
             location = latestLocation as! CLLocation
         }
+        
+
+        
+        var kennedy = CLLocation(latitude: 28.572646, longitude: -80.649024)
+        var distanceFromKennedy: CLLocationDistance = location.distanceFromLocation(kennedy)
+        var distanceMiles = distanceFromKennedy * 0.621371 / 1000
+        
+        kennedyDistLabel.text = String(format: "%.2f meters", distanceFromKennedy)
+        
+        rocketMiles.text = String(format: "%.2f miles", distanceMiles)
+
 
     }
 

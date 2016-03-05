@@ -44,7 +44,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3R+jSgBHSKWpUbdpE6YHYMUTd7Y=
+			kuPtTLX36KZGra+RRPuEE5y8mGY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -53,14 +53,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			53cAtGFDFgBDcN76PGE0Ur0U4+U=
+			LKA3iHmsOyPOEd5iZRFMcJ4PGKk=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
-		ljovPoIMPxqrCOphKRRDX6GsHPM=
+		aPZh3xVQXyc9q58NjJ1YGE/U7bI=
 		</data>
 		<key>Frameworks/Bolts.framework/Info.plist</key>
 		<data>
@@ -76,7 +76,7 @@
 		</data>
 		<key>Frameworks/Parse.framework/Parse</key>
 		<data>
-		palduvOzDy8MYRrstbYEZW+oFO0=
+		Xlv7kVvrgaMNQZlel7drMpVJL5g=
 		</data>
 		<key>Frameworks/Parse.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -186,7 +186,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3R+jSgBHSKWpUbdpE6YHYMUTd7Y=
+			kuPtTLX36KZGra+RRPuEE5y8mGY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -195,14 +195,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			53cAtGFDFgBDcN76PGE0Ur0U4+U=
+			LKA3iHmsOyPOEd5iZRFMcJ4PGKk=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
-		ljovPoIMPxqrCOphKRRDX6GsHPM=
+		aPZh3xVQXyc9q58NjJ1YGE/U7bI=
 		</data>
 		<key>Frameworks/Bolts.framework/Info.plist</key>
 		<data>
@@ -218,7 +218,7 @@
 		</data>
 		<key>Frameworks/Parse.framework/Parse</key>
 		<data>
-		palduvOzDy8MYRrstbYEZW+oFO0=
+		Xlv7kVvrgaMNQZlel7drMpVJL5g=
 		</data>
 		<key>Frameworks/Parse.framework/_CodeSignature/CodeResources</key>
 		<data>

@@ -6,37 +6,45 @@ provides-nominal:
 provides-member:
 - ["C4poyo25listedPoyosViewController", ""]
 provides-dynamic-lookup:
-- "locationManager"
-- "locationManager"
-- "didReceiveMemoryWarning"
-- "latitudeLabel"
-- "resetLocation"
+- "rocketMiles"
 - "viewDidLoad"
+- "kennedyDistLabel"
+- "resetLocation"
 - "location"
+- "latitudeLabel"
+- "didReceiveMemoryWarning"
 - "longitudeLabel"
+- "locationManager"
+- "locationManager"
 depends-top-level:
-- !private "-"
-- !private "kCLLocationAccuracyNearestTenMeters"
-- "listedPoyosViewController"
-- "CLLocationManagerDelegate"
 - "UIViewController"
-- !private "String"
-- !private "StringLiteralType"
 - "CLLocation"
+- !private "CLLocationDistance"
+- !private "StringLiteralType"
+- "CLLocationManagerDelegate"
+- !private "/"
+- !private "String"
+- !private "=="
+- "listedPoyosViewController"
+- !private "*"
 - "AnyObject"
 - "CLLocationManager"
-- !private "=="
 - !private "print"
+- !private "-"
 - "UILabel"
+- !private "kCLLocationAccuracyNearestTenMeters"
 depends-member:
+- !private ["PSs9AnyObject", "CLLocation"]
 - ["PSs9AnyObject", "CLLocationManager"]
 - !private ["PSs9AnyObject", "String"]
 - !private ["PSs9AnyObject", "coordinate"]
 - !private ["PSs9AnyObject", "delegate"]
 - !private ["PSs9AnyObject", "desiredAccuracy"]
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- !private ["PSs9AnyObject", "distanceFromLocation"]
 - ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "kCLLocationAccuracyNearestTenMeters"]
+- ["PSs9AnyObject", "kennedyDistLabel"]
 - ["PSs9AnyObject", "latitudeLabel"]
 - ["PSs9AnyObject", "location"]
 - ["PSs9AnyObject", "locationManager"]
@@ -49,6 +57,7 @@ depends-member:
 - !private ["PSs9AnyObject", "requestAlwaysAuthorization"]
 - !private ["PSs9AnyObject", "requestWhenInUseAuthorization"]
 - ["PSs9AnyObject", "resetLocation"]
+- ["PSs9AnyObject", "rocketMiles"]
 - !private ["PSs9AnyObject", "startUpdatingLocation"]
 - !private ["PSs9AnyObject", "text"]
 - ["PSs9AnyObject", "viewDidLoad"]
@@ -75,6 +84,8 @@ depends-member:
 - !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
 - !private ["CSo10CLLocation", "deinit"]
+- !private ["CSo10CLLocation", "distanceFromLocation"]
+- !private ["CSo10CLLocation", "init"]
 - !private ["VSC22CLLocationCoordinate2D", "latitude"]
 - !private ["VSC22CLLocationCoordinate2D", "longitude"]
 - !private ["CSo17CLLocationManager", "delegate"]
@@ -84,9 +95,11 @@ depends-member:
 - !private ["CSo17CLLocationManager", "requestAlwaysAuthorization"]
 - !private ["CSo17CLLocationManager", "requestWhenInUseAuthorization"]
 - !private ["CSo17CLLocationManager", "startUpdatingLocation"]
+- !private ["PSo25CLLocationManagerDelegate", "CLLocation"]
 - ["PSo25CLLocationManagerDelegate", "CLLocationManager"]
 - !private ["PSo25CLLocationManagerDelegate", "String"]
 - !private ["PSo25CLLocationManagerDelegate", "kCLLocationAccuracyNearestTenMeters"]
+- !private ["PSo25CLLocationManagerDelegate", "kennedyDistLabel"]
 - !private ["PSo25CLLocationManagerDelegate", "latitudeLabel"]
 - !private ["PSo25CLLocationManagerDelegate", "location"]
 - ["PSo25CLLocationManagerDelegate", "locationManager"]
@@ -95,7 +108,9 @@ depends-member:
 - ["PSo25CLLocationManagerDelegate", "locationManagerShouldDisplayHeadingCalibration"]
 - !private ["PSo25CLLocationManagerDelegate", "longitudeLabel"]
 - !private ["PSo25CLLocationManagerDelegate", "print"]
+- !private ["PSo25CLLocationManagerDelegate", "rocketMiles"]
 - ["PSo25CLLocationManagerDelegate", ""]
+- !private ["PSs11CVarArgType", "CLLocation"]
 - ["PSs11CVarArgType", "CLLocationManager"]
 - !private ["PSs11CVarArgType", "Distance"]
 - !private ["PSs11CVarArgType", "IntegerLiteralType"]
@@ -103,8 +118,10 @@ depends-member:
 - !private ["PSs11CVarArgType", "delegate"]
 - !private ["PSs11CVarArgType", "desiredAccuracy"]
 - ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["PSs11CVarArgType", "distanceFromLocation"]
 - ["PSs11CVarArgType", "init"]
 - !private ["PSs11CVarArgType", "kCLLocationAccuracyNearestTenMeters"]
+- ["PSs11CVarArgType", "kennedyDistLabel"]
 - ["PSs11CVarArgType", "latitudeLabel"]
 - ["PSs11CVarArgType", "location"]
 - ["PSs11CVarArgType", "locationManager"]
@@ -117,6 +134,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "requestAlwaysAuthorization"]
 - !private ["PSs11CVarArgType", "requestWhenInUseAuthorization"]
 - ["PSs11CVarArgType", "resetLocation"]
+- ["PSs11CVarArgType", "rocketMiles"]
 - !private ["PSs11CVarArgType", "startUpdatingLocation"]
 - !private ["PSs11CVarArgType", "text"]
 - ["PSs11CVarArgType", "viewDidLoad"]
@@ -136,6 +154,7 @@ depends-member:
 - !private ["PSs28CustomDebugStringConvertible", "count"]
 - !private ["PSs28CustomDebugStringConvertible", "init"]
 - !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "CLLocation"]
 - ["PSs23CustomStringConvertible", "CLLocationManager"]
 - !private ["PSs23CustomStringConvertible", "Distance"]
 - !private ["PSs23CustomStringConvertible", "Generator"]
@@ -148,8 +167,10 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "delegate"]
 - !private ["PSs23CustomStringConvertible", "desiredAccuracy"]
 - ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["PSs23CustomStringConvertible", "distanceFromLocation"]
 - ["PSs23CustomStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "kCLLocationAccuracyNearestTenMeters"]
+- ["PSs23CustomStringConvertible", "kennedyDistLabel"]
 - ["PSs23CustomStringConvertible", "latitudeLabel"]
 - ["PSs23CustomStringConvertible", "location"]
 - ["PSs23CustomStringConvertible", "locationManager"]
@@ -162,11 +183,13 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "requestAlwaysAuthorization"]
 - !private ["PSs23CustomStringConvertible", "requestWhenInUseAuthorization"]
 - ["PSs23CustomStringConvertible", "resetLocation"]
+- ["PSs23CustomStringConvertible", "rocketMiles"]
 - !private ["PSs23CustomStringConvertible", "startUpdatingLocation"]
 - !private ["PSs23CustomStringConvertible", "subscript"]
 - !private ["PSs23CustomStringConvertible", "text"]
 - ["PSs23CustomStringConvertible", "viewDidLoad"]
 - ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "CLLocation"]
 - ["PSs9Equatable", "CLLocationManager"]
 - !private ["PSs9Equatable", "Distance"]
 - !private ["PSs9Equatable", "IntegerLiteralType"]
@@ -175,8 +198,10 @@ depends-member:
 - !private ["PSs9Equatable", "delegate"]
 - !private ["PSs9Equatable", "desiredAccuracy"]
 - ["PSs9Equatable", "didReceiveMemoryWarning"]
+- !private ["PSs9Equatable", "distanceFromLocation"]
 - ["PSs9Equatable", "init"]
 - !private ["PSs9Equatable", "kCLLocationAccuracyNearestTenMeters"]
+- ["PSs9Equatable", "kennedyDistLabel"]
 - ["PSs9Equatable", "latitudeLabel"]
 - ["PSs9Equatable", "location"]
 - ["PSs9Equatable", "locationManager"]
@@ -189,6 +214,7 @@ depends-member:
 - !private ["PSs9Equatable", "requestAlwaysAuthorization"]
 - !private ["PSs9Equatable", "requestWhenInUseAuthorization"]
 - ["PSs9Equatable", "resetLocation"]
+- ["PSs9Equatable", "rocketMiles"]
 - !private ["PSs9Equatable", "startUpdatingLocation"]
 - !private ["PSs9Equatable", "text"]
 - ["PSs9Equatable", "viewDidLoad"]
@@ -197,6 +223,7 @@ depends-member:
 - !private ["PSs16ForwardIndexType", "Distance"]
 - !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
 - !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "CLLocation"]
 - ["PSs8Hashable", "CLLocationManager"]
 - !private ["PSs8Hashable", "Distance"]
 - !private ["PSs8Hashable", "IntegerLiteralType"]
@@ -205,8 +232,10 @@ depends-member:
 - !private ["PSs8Hashable", "delegate"]
 - !private ["PSs8Hashable", "desiredAccuracy"]
 - ["PSs8Hashable", "didReceiveMemoryWarning"]
+- !private ["PSs8Hashable", "distanceFromLocation"]
 - ["PSs8Hashable", "init"]
 - !private ["PSs8Hashable", "kCLLocationAccuracyNearestTenMeters"]
+- ["PSs8Hashable", "kennedyDistLabel"]
 - ["PSs8Hashable", "latitudeLabel"]
 - ["PSs8Hashable", "location"]
 - ["PSs8Hashable", "locationManager"]
@@ -219,6 +248,7 @@ depends-member:
 - !private ["PSs8Hashable", "requestAlwaysAuthorization"]
 - !private ["PSs8Hashable", "requestWhenInUseAuthorization"]
 - ["PSs8Hashable", "resetLocation"]
+- ["PSs8Hashable", "rocketMiles"]
 - !private ["PSs8Hashable", "startUpdatingLocation"]
 - !private ["PSs8Hashable", "text"]
 - ["PSs8Hashable", "viewDidLoad"]
@@ -258,11 +288,14 @@ depends-member:
 - !private ["PSs16MutableSliceable", "SubSequence"]
 - !private ["PSs16MutableSliceable", "count"]
 - !private ["PSs16MutableSliceable", "subscript"]
+- !private ["PSo8NSCoding", "CLLocation"]
 - ["PSo8NSCoding", "CLLocationManager"]
 - !private ["PSo8NSCoding", "String"]
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "distanceFromLocation"]
 - ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "kCLLocationAccuracyNearestTenMeters"]
+- ["PSo8NSCoding", "kennedyDistLabel"]
 - ["PSo8NSCoding", "latitudeLabel"]
 - ["PSo8NSCoding", "location"]
 - ["PSo8NSCoding", "locationManager"]
@@ -272,14 +305,19 @@ depends-member:
 - ["PSo8NSCoding", "longitudeLabel"]
 - !private ["PSo8NSCoding", "print"]
 - ["PSo8NSCoding", "resetLocation"]
+- ["PSo8NSCoding", "rocketMiles"]
 - !private ["PSo8NSCoding", "text"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "distanceFromLocation"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "CLLocation"]
 - ["PSo26NSExtensionRequestHandling", "CLLocationManager"]
 - !private ["PSo26NSExtensionRequestHandling", "String"]
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - ["PSo26NSExtensionRequestHandling", "init"]
 - !private ["PSo26NSExtensionRequestHandling", "kCLLocationAccuracyNearestTenMeters"]
+- ["PSo26NSExtensionRequestHandling", "kennedyDistLabel"]
 - ["PSo26NSExtensionRequestHandling", "latitudeLabel"]
 - ["PSo26NSExtensionRequestHandling", "location"]
 - ["PSo26NSExtensionRequestHandling", "locationManager"]
@@ -289,10 +327,12 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "longitudeLabel"]
 - !private ["PSo26NSExtensionRequestHandling", "print"]
 - ["PSo26NSExtensionRequestHandling", "resetLocation"]
+- ["PSo26NSExtensionRequestHandling", "rocketMiles"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
 - ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "CLLocation"]
+- !private ["CSo8NSObject", "CLLocationDistance"]
 - ["CSo8NSObject", "CLLocationManager"]
 - !private ["CSo8NSObject", "String"]
 - ["CSo8NSObject", "UILabel"]
@@ -300,8 +340,10 @@ depends-member:
 - !private ["CSo8NSObject", "delegate"]
 - !private ["CSo8NSObject", "desiredAccuracy"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "distanceFromLocation"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "kCLLocationAccuracyNearestTenMeters"]
+- ["CSo8NSObject", "kennedyDistLabel"]
 - ["CSo8NSObject", "latitudeLabel"]
 - ["CSo8NSObject", "location"]
 - ["CSo8NSObject", "locationManager"]
@@ -314,16 +356,20 @@ depends-member:
 - !private ["CSo8NSObject", "requestAlwaysAuthorization"]
 - !private ["CSo8NSObject", "requestWhenInUseAuthorization"]
 - ["CSo8NSObject", "resetLocation"]
+- ["CSo8NSObject", "rocketMiles"]
 - !private ["CSo8NSObject", "startUpdatingLocation"]
 - !private ["CSo8NSObject", "text"]
 - ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "CLLocation"]
 - ["PSo16NSObjectProtocol", "CLLocationManager"]
 - !private ["PSo16NSObjectProtocol", "String"]
 - !private ["PSo16NSObjectProtocol", "delegate"]
 - !private ["PSo16NSObjectProtocol", "desiredAccuracy"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "distanceFromLocation"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "kCLLocationAccuracyNearestTenMeters"]
+- ["PSo16NSObjectProtocol", "kennedyDistLabel"]
 - ["PSo16NSObjectProtocol", "latitudeLabel"]
 - ["PSo16NSObjectProtocol", "location"]
 - ["PSo16NSObjectProtocol", "locationManager"]
@@ -336,10 +382,13 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "requestAlwaysAuthorization"]
 - !private ["PSo16NSObjectProtocol", "requestWhenInUseAuthorization"]
 - ["PSo16NSObjectProtocol", "resetLocation"]
+- ["PSo16NSObjectProtocol", "rocketMiles"]
 - !private ["PSo16NSObjectProtocol", "startUpdatingLocation"]
 - !private ["PSo16NSObjectProtocol", "text"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "distanceFromLocation"]
+- !private ["PSo14NSSecureCoding", "init"]
 - !private ["Sq", "deinit"]
 - !private ["PSs16OutputStreamType", "init"]
 - !private ["PSs21RandomAccessIndexType", "Distance"]
@@ -372,11 +421,13 @@ depends-member:
 - !private ["PSs24StringLiteralConvertible", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "text"]
 - !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "CLLocation"]
 - ["PSo21UIAppearanceContainer", "CLLocationManager"]
 - !private ["PSo21UIAppearanceContainer", "String"]
 - ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
 - ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "kCLLocationAccuracyNearestTenMeters"]
+- ["PSo21UIAppearanceContainer", "kennedyDistLabel"]
 - ["PSo21UIAppearanceContainer", "latitudeLabel"]
 - ["PSo21UIAppearanceContainer", "location"]
 - ["PSo21UIAppearanceContainer", "locationManager"]
@@ -386,14 +437,17 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "longitudeLabel"]
 - !private ["PSo21UIAppearanceContainer", "print"]
 - ["PSo21UIAppearanceContainer", "resetLocation"]
+- ["PSo21UIAppearanceContainer", "rocketMiles"]
 - !private ["PSo21UIAppearanceContainer", "text"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "CLLocation"]
 - ["PSo18UIContentContainer", "CLLocationManager"]
 - !private ["PSo18UIContentContainer", "String"]
 - ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
 - ["PSo18UIContentContainer", "init"]
 - !private ["PSo18UIContentContainer", "kCLLocationAccuracyNearestTenMeters"]
+- ["PSo18UIContentContainer", "kennedyDistLabel"]
 - ["PSo18UIContentContainer", "latitudeLabel"]
 - ["PSo18UIContentContainer", "location"]
 - ["PSo18UIContentContainer", "locationManager"]
@@ -403,15 +457,18 @@ depends-member:
 - ["PSo18UIContentContainer", "longitudeLabel"]
 - !private ["PSo18UIContentContainer", "print"]
 - ["PSo18UIContentContainer", "resetLocation"]
+- ["PSo18UIContentContainer", "rocketMiles"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
 - !private ["PSo17UICoordinateSpace", "text"]
 - !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "CLLocation"]
 - ["PSo18UIFocusEnvironment", "CLLocationManager"]
 - !private ["PSo18UIFocusEnvironment", "String"]
 - ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UIFocusEnvironment", "init"]
 - !private ["PSo18UIFocusEnvironment", "kCLLocationAccuracyNearestTenMeters"]
+- ["PSo18UIFocusEnvironment", "kennedyDistLabel"]
 - ["PSo18UIFocusEnvironment", "latitudeLabel"]
 - ["PSo18UIFocusEnvironment", "location"]
 - ["PSo18UIFocusEnvironment", "locationManager"]
@@ -421,18 +478,21 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "longitudeLabel"]
 - !private ["PSo18UIFocusEnvironment", "print"]
 - ["PSo18UIFocusEnvironment", "resetLocation"]
+- ["PSo18UIFocusEnvironment", "rocketMiles"]
 - !private ["PSo18UIFocusEnvironment", "text"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
 - !private ["CSo7UILabel", "text"]
 - ["CSo11UIResponder", "AnyObject"]
 - ["CSo11UIResponder", "CLLocation"]
+- !private ["CSo11UIResponder", "CLLocationDistance"]
 - ["CSo11UIResponder", "CLLocationManager"]
 - !private ["CSo11UIResponder", "String"]
 - ["CSo11UIResponder", "UILabel"]
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
 - ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "kCLLocationAccuracyNearestTenMeters"]
+- ["CSo11UIResponder", "kennedyDistLabel"]
 - ["CSo11UIResponder", "latitudeLabel"]
 - ["CSo11UIResponder", "location"]
 - ["CSo11UIResponder", "locationManager"]
@@ -442,13 +502,16 @@ depends-member:
 - ["CSo11UIResponder", "longitudeLabel"]
 - !private ["CSo11UIResponder", "print"]
 - ["CSo11UIResponder", "resetLocation"]
+- ["CSo11UIResponder", "rocketMiles"]
 - !private ["CSo11UIResponder", "text"]
 - ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "CLLocation"]
 - ["PSo16UIStateRestoring", "CLLocationManager"]
 - !private ["PSo16UIStateRestoring", "String"]
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
 - ["PSo16UIStateRestoring", "init"]
 - !private ["PSo16UIStateRestoring", "kCLLocationAccuracyNearestTenMeters"]
+- ["PSo16UIStateRestoring", "kennedyDistLabel"]
 - ["PSo16UIStateRestoring", "latitudeLabel"]
 - ["PSo16UIStateRestoring", "location"]
 - ["PSo16UIStateRestoring", "locationManager"]
@@ -458,13 +521,16 @@ depends-member:
 - ["PSo16UIStateRestoring", "longitudeLabel"]
 - !private ["PSo16UIStateRestoring", "print"]
 - ["PSo16UIStateRestoring", "resetLocation"]
+- ["PSo16UIStateRestoring", "rocketMiles"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "CLLocation"]
 - ["PSo18UITraitEnvironment", "CLLocationManager"]
 - !private ["PSo18UITraitEnvironment", "String"]
 - ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UITraitEnvironment", "init"]
 - !private ["PSo18UITraitEnvironment", "kCLLocationAccuracyNearestTenMeters"]
+- ["PSo18UITraitEnvironment", "kennedyDistLabel"]
 - ["PSo18UITraitEnvironment", "latitudeLabel"]
 - ["PSo18UITraitEnvironment", "location"]
 - ["PSo18UITraitEnvironment", "locationManager"]
@@ -474,18 +540,21 @@ depends-member:
 - ["PSo18UITraitEnvironment", "longitudeLabel"]
 - !private ["PSo18UITraitEnvironment", "print"]
 - ["PSo18UITraitEnvironment", "resetLocation"]
+- ["PSo18UITraitEnvironment", "rocketMiles"]
 - !private ["PSo18UITraitEnvironment", "text"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
 - !private ["CSo6UIView", "text"]
 - ["CSo16UIViewController", "AnyObject"]
 - ["CSo16UIViewController", "CLLocation"]
+- !private ["CSo16UIViewController", "CLLocationDistance"]
 - ["CSo16UIViewController", "CLLocationManager"]
 - !private ["CSo16UIViewController", "String"]
 - ["CSo16UIViewController", "UILabel"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - ["CSo16UIViewController", "init"]
 - !private ["CSo16UIViewController", "kCLLocationAccuracyNearestTenMeters"]
+- ["CSo16UIViewController", "kennedyDistLabel"]
 - ["CSo16UIViewController", "latitudeLabel"]
 - ["CSo16UIViewController", "location"]
 - ["CSo16UIViewController", "locationManager"]
@@ -495,6 +564,7 @@ depends-member:
 - ["CSo16UIViewController", "longitudeLabel"]
 - !private ["CSo16UIViewController", "print"]
 - ["CSo16UIViewController", "resetLocation"]
+- ["CSo16UIViewController", "rocketMiles"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
 - !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
@@ -549,6 +619,7 @@ depends-member:
 - !private ["PSs11_Strideable", "IntegerLiteralType"]
 - ["C4poyo25listedPoyosViewController", "AnyObject"]
 - ["C4poyo25listedPoyosViewController", "CLLocation"]
+- !private ["C4poyo25listedPoyosViewController", "CLLocationDistance"]
 - ["C4poyo25listedPoyosViewController", "CLLocationManager"]
 - !private ["C4poyo25listedPoyosViewController", "String"]
 - ["C4poyo25listedPoyosViewController", "UILabel"]
@@ -556,6 +627,7 @@ depends-member:
 - ["C4poyo25listedPoyosViewController", "didReceiveMemoryWarning"]
 - ["C4poyo25listedPoyosViewController", "init"]
 - !private ["C4poyo25listedPoyosViewController", "kCLLocationAccuracyNearestTenMeters"]
+- ["C4poyo25listedPoyosViewController", "kennedyDistLabel"]
 - ["C4poyo25listedPoyosViewController", "latitudeLabel"]
 - ["C4poyo25listedPoyosViewController", "location"]
 - ["C4poyo25listedPoyosViewController", "locationManager"]
@@ -565,6 +637,7 @@ depends-member:
 - ["C4poyo25listedPoyosViewController", "longitudeLabel"]
 - !private ["C4poyo25listedPoyosViewController", "print"]
 - ["C4poyo25listedPoyosViewController", "resetLocation"]
+- ["C4poyo25listedPoyosViewController", "rocketMiles"]
 - ["C4poyo25listedPoyosViewController", "viewDidLoad"]
 depends-nominal:
 - "PSs9AnyObject"
@@ -603,9 +676,11 @@ depends-nominal:
 - !private "VSs12MutableSlice"
 - !private "PSs16MutableSliceable"
 - "PSo8NSCoding"
+- !private "PSo9NSCopying"
 - "PSo26NSExtensionRequestHandling"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
 - !private "Sq"
 - !private "PSs16OutputStreamType"
 - !private "PSs21RandomAccessIndexType"
@@ -713,4 +788,4 @@ depends-external:
 - "/Users/Takashi/Documents/GitHub/poyo/poyo/DerivedData/poyo/Build/Products/Debug-iphoneos/Parse.framework/Headers/Parse.h"
 - "/Users/Takashi/Documents/GitHub/poyo/poyo/DerivedData/poyo/Build/Products/Debug-iphoneos/Parse.framework/Headers/Parse-umbrella.h"
 - "/Users/Takashi/Documents/GitHub/poyo/poyo/DerivedData/poyo/Build/Products/Debug-iphoneos/Parse.framework/Modules/module.modulemap"
-interface-hash: "3c33cfc0997306af4b50146068fad588"
+interface-hash: "e70af169ab352ec20d17c9e3f761e7c7"
