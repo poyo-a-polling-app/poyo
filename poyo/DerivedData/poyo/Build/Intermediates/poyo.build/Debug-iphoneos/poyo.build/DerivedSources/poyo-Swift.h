@@ -153,4 +153,21 @@ SWIFT_CLASS("_TtC4poyo25listedPoyosViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC4poyo28locationFinderViewController")
+@interface locationFinderViewController : UIViewController <CLLocationManagerDelegate>
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified longitudeLabel;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified latitudeLabel;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified kennedyDistLabel;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified rocketMiles;
+@property (nonatomic, strong) CLLocationManager * __nonnull locationManager;
+@property (nonatomic, strong) CLLocation * __null_unspecified location;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (void)locationManager:(CLLocationManager * __nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * __nonnull)locations;
+- (IBAction)resetLocation:(id __nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 #pragma clang diagnostic pop
