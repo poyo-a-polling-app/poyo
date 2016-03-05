@@ -12,6 +12,7 @@
 		16AF95B51C8A658D00A2E244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AF95B31C8A658D00A2E244 /* Main.storyboard */; };
 		16AF95B71C8A658D00A2E244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16AF95B61C8A658D00A2E244 /* Assets.xcassets */; };
 		16AF95BA1C8A658D00A2E244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AF95B81C8A658D00A2E244 /* LaunchScreen.storyboard */; };
+		16AF95C21C8A897000A2E244 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AF95C11C8A897000A2E244 /* LoginViewController.swift */; };
 		EFEF00BD57347C559DDF0D91 /* Pods_poyo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04FA1A34DF97DBE152E64C2B /* Pods_poyo.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		16AF95B61C8A658D00A2E244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16AF95B91C8A658D00A2E244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16AF95BB1C8A658D00A2E244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16AF95C11C8A897000A2E244 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CD6F36ED091C75E954BE58E6 /* Pods-poyo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poyo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-poyo/Pods-poyo.debug.xcconfig"; sourceTree = "<group>"; };
 		EE4FB60A9B38702A9E42F50B /* Pods-poyo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poyo.release.xcconfig"; path = "Pods/Target Support Files/Pods-poyo/Pods-poyo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +66,7 @@
 				16AF95AF1C8A658D00A2E244 /* AppDelegate.swift */,
 				16AF95B11C8A658D00A2E244 /* ViewController.swift */,
 				16AF95B31C8A658D00A2E244 /* Main.storyboard */,
+				16AF95C11C8A897000A2E244 /* LoginViewController.swift */,
 				16AF95B61C8A658D00A2E244 /* Assets.xcassets */,
 				16AF95B81C8A658D00A2E244 /* LaunchScreen.storyboard */,
 				16AF95BB1C8A658D00A2E244 /* Info.plist */,
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16AF95C21C8A897000A2E244 /* LoginViewController.swift in Sources */,
 				16AF95B21C8A658D00A2E244 /* ViewController.swift in Sources */,
 				16AF95B01C8A658D00A2E244 /* AppDelegate.swift in Sources */,
 			);

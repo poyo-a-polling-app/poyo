@@ -6,6 +6,7 @@
 //  Copyright © 2016 Takashi Wickes. All rights reserved.
 //
 
+import Parse
 import UIKit
 
 @UIApplicationMain
@@ -16,6 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        Parse.initializeWithConfiguration(
+            ParseClientConfiguration(block: { (configuration:ParseMutableClientConfiguration) -> Void in
+                configuration.applicationId = "poyo"
+                configuration.clientKey = "asdasni3[0d;;jawkdsnllkn"
+                configuration.server = "https://poyo-develop.herokuapp.com/parse"
+            })
+        )
         return true
     }
 

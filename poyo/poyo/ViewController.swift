@@ -6,6 +6,7 @@
 //  Copyright © 2016 Takashi Wickes. All rights reserved.
 //
 
+import Parse
 import UIKit
 
 class ViewController: UIViewController {
