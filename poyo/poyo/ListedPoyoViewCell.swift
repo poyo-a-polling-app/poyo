@@ -19,8 +19,8 @@ class ListedPoyoViewCell: UITableViewCell {
     @IBOutlet weak var timeLabel: UILabel!
     
     
-    class var expandedHeight: CGFloat { get { return 200 } }
-    class var defaultHeight: CGFloat { get { return 44 } }
+    class var expandedHeight: CGFloat { get { return 300 } }
+    class var defaultHeight: CGFloat { get { return 100 } }
 
     
     
