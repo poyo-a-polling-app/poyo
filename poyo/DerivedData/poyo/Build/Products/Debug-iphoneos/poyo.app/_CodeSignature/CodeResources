@@ -31,6 +31,15 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Base.lproj/Main.storyboardc/817-Dv-9po-view-i7J-vM-aGE.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+djBKazel5tKI9ikETdqh3HoUtY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
@@ -44,7 +53,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4bPQzxMHtKbIXPwm/R/yxLuNokE=
+			Pej69SigGbHGpLFvQIV3Ngzb1cE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -53,14 +62,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EwEhh7jqkFFePhkY5XQnzMjs2JM=
+			GDKySDU9wmp55SpKZgp+/B+CjTo=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
-		e+zcO6Aq5G/Zrez+Ry0FS4pCLho=
+		2Brff53/mHG+rLuSLDXJ2hODiM4=
 		</data>
 		<key>Frameworks/Bolts.framework/Info.plist</key>
 		<data>
@@ -76,7 +85,7 @@
 		</data>
 		<key>Frameworks/Parse.framework/Parse</key>
 		<data>
-		JksS8BHqo7gdbli4O4k9GU1BjZE=
+		RmUJHpJGxgCETpnhC1fzXDsgVDs=
 		</data>
 		<key>Frameworks/Parse.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -173,6 +182,15 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Base.lproj/Main.storyboardc/817-Dv-9po-view-i7J-vM-aGE.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+djBKazel5tKI9ikETdqh3HoUtY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
@@ -186,7 +204,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4bPQzxMHtKbIXPwm/R/yxLuNokE=
+			Pej69SigGbHGpLFvQIV3Ngzb1cE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -195,14 +213,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EwEhh7jqkFFePhkY5XQnzMjs2JM=
+			GDKySDU9wmp55SpKZgp+/B+CjTo=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
-		e+zcO6Aq5G/Zrez+Ry0FS4pCLho=
+		2Brff53/mHG+rLuSLDXJ2hODiM4=
 		</data>
 		<key>Frameworks/Bolts.framework/Info.plist</key>
 		<data>
@@ -218,7 +236,7 @@
 		</data>
 		<key>Frameworks/Parse.framework/Parse</key>
 		<data>
-		JksS8BHqo7gdbli4O4k9GU1BjZE=
+		RmUJHpJGxgCETpnhC1fzXDsgVDs=
 		</data>
 		<key>Frameworks/Parse.framework/_CodeSignature/CodeResources</key>
 		<data>

@@ -55,7 +55,7 @@
             </objects>
             <point key="canvasLocation" x="244.5" y="349.5"/>
         </scene>
-        <!--Location Finder View Controller-->
+        <!--Location-->
         <scene sceneID="aFD-e8-yOG">
             <objects>
                 <viewController id="817-Dv-9po" customClass="locationFinderViewController" customModule="poyo" customModuleProvider="target" sceneMemberID="viewController">
@@ -119,6 +119,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Location" id="hoG-vy-EHt"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="kennedyDistLabel" destination="m8S-9q-jpL" id="baf-Ct-YCs"/>
@@ -129,9 +130,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EWm-wX-3j1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="656.5" y="-416.5"/>
+            <point key="canvasLocation" x="1555.5" y="-179.5"/>
         </scene>
-        <!--Item-->
+        <!--List-->
         <scene sceneID="ImZ-w6-rbF">
             <objects>
                 <viewController id="k3L-oC-vA6" customClass="listedPoyosViewController" customModule="poyo" customModuleProvider="target" sceneMemberID="viewController">
@@ -180,7 +181,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="EnI-CB-PuQ"/>
+                    <tabBarItem key="tabBarItem" title="List" id="EnI-CB-PuQ"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="tableView" destination="Jq4-pl-Gn0" id="hwn-gR-aGP"/>
@@ -188,7 +189,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jln-0o-cGP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1574.5" y="406.5"/>
+            <point key="canvasLocation" x="1555.5" y="721.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="wqZ-cq-NQT">
@@ -201,11 +202,12 @@
                     </tabBar>
                     <connections>
                         <segue destination="k3L-oC-vA6" kind="relationship" relationship="viewControllers" id="Y6h-oj-skV"/>
+                        <segue destination="817-Dv-9po" kind="relationship" relationship="viewControllers" id="s17-dB-slv"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JVL-cO-rVn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="875" y="406"/>
+            <point key="canvasLocation" x="985.5" y="384.5"/>
         </scene>
     </scenes>
 </document>
