@@ -8,7 +8,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X1ggHSN3EOmn7SlcCDGS4NUydzM=
+			PTsgr7xGjif3E0ANeB0NgzSMVOY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -26,7 +26,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eHuEafLMTTfbN73a8XGkZwHKHTs=
+			mjlDV2ax4ngX/L5NPILGWx1yhCg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+djBKazel5tKI9ikETdqh3HoUtY=
+			/s2vdq7XhOBm5poKJRRLdCNJCKM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -53,7 +53,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Pej69SigGbHGpLFvQIV3Ngzb1cE=
+			PQMlYN6Qm62Qtc/616a9hu5liCM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -62,14 +62,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GDKySDU9wmp55SpKZgp+/B+CjTo=
+			wj2b09gQ3vEKWSfP3qmiJsheSEg=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
-		2Brff53/mHG+rLuSLDXJ2hODiM4=
+		UNjH/J46TC29cZi1k6jSWd0Ky2I=
 		</data>
 		<key>Frameworks/Bolts.framework/Info.plist</key>
 		<data>
@@ -85,7 +85,7 @@
 		</data>
 		<key>Frameworks/Parse.framework/Parse</key>
 		<data>
-		RmUJHpJGxgCETpnhC1fzXDsgVDs=
+		i4//K3fZlkmli7i4v80gj4K2n00=
 		</data>
 		<key>Frameworks/Parse.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -159,7 +159,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X1ggHSN3EOmn7SlcCDGS4NUydzM=
+			PTsgr7xGjif3E0ANeB0NgzSMVOY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -177,7 +177,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eHuEafLMTTfbN73a8XGkZwHKHTs=
+			mjlDV2ax4ngX/L5NPILGWx1yhCg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -186,7 +186,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+djBKazel5tKI9ikETdqh3HoUtY=
+			/s2vdq7XhOBm5poKJRRLdCNJCKM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -204,7 +204,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Pej69SigGbHGpLFvQIV3Ngzb1cE=
+			PQMlYN6Qm62Qtc/616a9hu5liCM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -213,14 +213,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GDKySDU9wmp55SpKZgp+/B+CjTo=
+			wj2b09gQ3vEKWSfP3qmiJsheSEg=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
-		2Brff53/mHG+rLuSLDXJ2hODiM4=
+		UNjH/J46TC29cZi1k6jSWd0Ky2I=
 		</data>
 		<key>Frameworks/Bolts.framework/Info.plist</key>
 		<data>
@@ -236,7 +236,7 @@
 		</data>
 		<key>Frameworks/Parse.framework/Parse</key>
 		<data>
-		RmUJHpJGxgCETpnhC1fzXDsgVDs=
+		i4//K3fZlkmli7i4v80gj4K2n00=
 		</data>
 		<key>Frameworks/Parse.framework/_CodeSignature/CodeResources</key>
 		<data>
