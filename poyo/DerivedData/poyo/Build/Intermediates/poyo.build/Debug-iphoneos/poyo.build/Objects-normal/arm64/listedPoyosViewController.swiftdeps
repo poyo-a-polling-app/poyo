@@ -6,49 +6,49 @@ provides-nominal:
 provides-member:
 - ["C4poyo25listedPoyosViewController", ""]
 provides-dynamic-lookup:
+- "locationManager"
+- "locationManager"
 - "frameAdded"
-- "selectedIndexPath"
-- "locationManager"
-- "locationManager"
-- "didReceiveMemoryWarning"
-- "tableView"
-- "tableView"
-- "tableView"
-- "tableView"
-- "tableView"
-- "tableView"
-- "tableView"
 - "resetLocation"
-- "viewDidLoad"
+- "selectedIndexPath"
 - "location"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "didReceiveMemoryWarning"
+- "viewDidLoad"
 depends-top-level:
-- "CGFloat"
+- "UIViewController"
+- !private "print"
+- "UITableViewDataSource"
+- "BooleanLiteralType"
+- !private "CLLocationDistance"
+- "CLLocationManagerDelegate"
+- !private "UITableViewRowAnimation"
 - "UITableViewCell"
 - "listedPoyosViewController"
 - "NSIndexPath"
-- "CLLocation"
-- !private "=="
-- !private "/"
-- !private "StringLiteralType"
-- "UIViewController"
-- !private "*"
-- "UITableViewDataSource"
-- !private "UITableViewRowAnimation"
-- "CLLocationManagerDelegate"
-- !private "kCLLocationAccuracyNearestTenMeters"
-- "CLLocationManager"
 - !private "-"
+- !private "ListedPoyoViewCell"
+- "CLLocation"
+- "UITableView"
+- "AnyObject"
+- !private "*"
+- !private "StringLiteralType"
+- "Int"
+- !private ">"
+- !private "Array"
+- !private "kCLLocationAccuracyNearestTenMeters"
+- "CGFloat"
+- "CLLocationManager"
+- !private "=="
 - "UITableViewDelegate"
 - !private "+="
-- !private "ListedPoyoViewCell"
-- "UITableView"
-- !private "print"
-- "AnyObject"
-- "Int"
-- "BooleanLiteralType"
-- !private ">"
-- !private "CLLocationDistance"
-- !private "Array"
+- !private "/"
 depends-member:
 - !private ["PSs9AnyObject", "CLLocation"]
 - ["PSs9AnyObject", "CLLocationManager"]
@@ -296,12 +296,12 @@ depends-member:
 - ["PSs23CustomStringConvertible", "viewForZoomingInScrollView"]
 - !private ["PSs23CustomStringConvertible", "watchFrameChanges"]
 - ["PSs23CustomStringConvertible", ""]
-- !private ["PSs9Equatable", "Automatic"]
 - !private ["PSs9Equatable", "CLLocation"]
 - ["PSs9Equatable", "CLLocationManager"]
 - !private ["PSs9Equatable", "Distance"]
 - !private ["PSs9Equatable", "IntegerLiteralType"]
 - !private ["PSs9Equatable", "ListedPoyoViewCell"]
+- !private ["PSs9Equatable", "None"]
 - !private ["PSs9Equatable", "UITableViewRowAnimation"]
 - !private ["PSs9Equatable", "_getBuiltinLogicValue"]
 - !private ["PSs9Equatable", "dataSource"]
@@ -352,12 +352,12 @@ depends-member:
 - !private ["PSs16ForwardIndexType", "Distance"]
 - !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
 - !private ["PSs13GeneratorType", "Element"]
-- !private ["PSs8Hashable", "Automatic"]
 - !private ["PSs8Hashable", "CLLocation"]
 - ["PSs8Hashable", "CLLocationManager"]
 - !private ["PSs8Hashable", "Distance"]
 - !private ["PSs8Hashable", "IntegerLiteralType"]
 - !private ["PSs8Hashable", "ListedPoyoViewCell"]
+- !private ["PSs8Hashable", "None"]
 - !private ["PSs8Hashable", "UITableViewRowAnimation"]
 - !private ["PSs8Hashable", "_getBuiltinLogicValue"]
 - !private ["PSs8Hashable", "dataSource"]
@@ -657,7 +657,7 @@ depends-member:
 - !private ["PSs30RangeReplaceableCollectionType", "_Element"]
 - !private ["PSs30RangeReplaceableCollectionType", "count"]
 - !private ["PSs30RangeReplaceableCollectionType", "subscript"]
-- !private ["PSs16RawRepresentable", "Automatic"]
+- !private ["PSs16RawRepresentable", "None"]
 - !private ["PSs12SequenceType", "Element"]
 - !private ["PSs12SequenceType", "Generator"]
 - !private ["PSs12SequenceType", "Index"]
@@ -1021,7 +1021,7 @@ depends-member:
 - ["PSo19UITableViewDelegate", "tableView"]
 - ["PSo19UITableViewDelegate", "viewForZoomingInScrollView"]
 - ["PSo19UITableViewDelegate", ""]
-- !private ["OSC23UITableViewRowAnimation", "Automatic"]
+- !private ["OSC23UITableViewRowAnimation", "None"]
 - !private ["PSo18UITraitEnvironment", "CLLocation"]
 - ["PSo18UITraitEnvironment", "CLLocationManager"]
 - !private ["PSo18UITraitEnvironment", "ListedPoyoViewCell"]

@@ -86,7 +86,7 @@ class listedPoyosViewController: UIViewController, CLLocationManagerDelegate, UI
         }
         
         if indexPaths.count > 0 {
-            tableView.reloadRowsAtIndexPaths(indexPaths, withRowAnimation: UITableViewRowAnimation.Automatic)
+            tableView.reloadRowsAtIndexPaths(indexPaths, withRowAnimation: UITableViewRowAnimation.None)
         }
         
     }

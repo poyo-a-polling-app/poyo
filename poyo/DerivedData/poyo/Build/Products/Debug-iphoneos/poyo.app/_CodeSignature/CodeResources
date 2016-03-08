@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/s2vdq7XhOBm5poKJRRLdCNJCKM=
+			AebQ+FIBmTf50UP3YEI/HoXB6ww=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -53,7 +53,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PQMlYN6Qm62Qtc/616a9hu5liCM=
+			u1PQ5Kfybg3vFmvja8rznCbWask=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -62,14 +62,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wj2b09gQ3vEKWSfP3qmiJsheSEg=
+			tYWeBV1OMUBTkOWB0R+KubN7dPw=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
-		UNjH/J46TC29cZi1k6jSWd0Ky2I=
+		xRGs7o0bnB0opqLn79QVPi51XLg=
 		</data>
 		<key>Frameworks/Bolts.framework/Info.plist</key>
 		<data>
@@ -85,7 +85,7 @@
 		</data>
 		<key>Frameworks/Parse.framework/Parse</key>
 		<data>
-		i4//K3fZlkmli7i4v80gj4K2n00=
+		0XvLF41s6D8Tk+9FT69Quvsc/Dc=
 		</data>
 		<key>Frameworks/Parse.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -186,7 +186,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/s2vdq7XhOBm5poKJRRLdCNJCKM=
+			AebQ+FIBmTf50UP3YEI/HoXB6ww=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -204,7 +204,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PQMlYN6Qm62Qtc/616a9hu5liCM=
+			u1PQ5Kfybg3vFmvja8rznCbWask=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -213,14 +213,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wj2b09gQ3vEKWSfP3qmiJsheSEg=
+			tYWeBV1OMUBTkOWB0R+KubN7dPw=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
-		UNjH/J46TC29cZi1k6jSWd0Ky2I=
+		xRGs7o0bnB0opqLn79QVPi51XLg=
 		</data>
 		<key>Frameworks/Bolts.framework/Info.plist</key>
 		<data>
@@ -236,7 +236,7 @@
 		</data>
 		<key>Frameworks/Parse.framework/Parse</key>
 		<data>
-		i4//K3fZlkmli7i4v80gj4K2n00=
+		0XvLF41s6D8Tk+9FT69Quvsc/Dc=
 		</data>
 		<key>Frameworks/Parse.framework/_CodeSignature/CodeResources</key>
 		<data>
