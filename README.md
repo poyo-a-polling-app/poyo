@@ -20,6 +20,7 @@ The location based polling application
 - [ ] Animated graphs for results (Pie/Egg charts)
 - [ ] Images with options
 - [ ] Sort table view based on vote count
+- [ ] Images in question
 
 ###Date Recording
 * Per User
