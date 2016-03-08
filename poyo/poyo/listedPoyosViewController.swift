@@ -14,8 +14,12 @@ class listedPoyosViewController: UIViewController, CLLocationManagerDelegate, UI
     
     @IBOutlet weak var tableView: UITableView!
     
+    var selectedIndexPath: NSIndexPath?
+    
     var locationManager = CLLocationManager()
     var location: CLLocation!
+    
+    var frameAdded = false
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,6 +66,48 @@ class listedPoyosViewController: UIViewController, CLLocationManagerDelegate, UI
         
         return cell
     }
+    
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let previousIndexPath = selectedIndexPath
+        if indexPath == selectedIndexPath {
+            selectedIndexPath = nil
+        } else {
+            selectedIndexPath = indexPath
+        }
+        
+        var indexPaths : Array<NSIndexPath> = []
+        
+        if let previous = previousIndexPath {
+            indexPaths += [previous]
+        }
+        if let current = selectedIndexPath {
+            indexPaths += [current]
+        }
+        
+        if indexPaths.count > 0 {
+            tableView.reloadRowsAtIndexPaths(indexPaths, withRowAnimation: UITableViewRowAnimation.None)
+        }
+        
+    }
+    
+    func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
+            (cell as! ListedPoyoViewCell).watchFrameChanges()
+    }
+    
+    func tableView(tableView: UITableView, didEndDisplayingCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
+            (cell as! ListedPoyoViewCell).ignoreFrameChanges()
+    
+    }
+    
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        if indexPath == selectedIndexPath {
+            return ListedPoyoViewCell.expandedHeight
+        } else {
+            return ListedPoyoViewCell.defaultHeight
+        }
+    }
+
     
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         var latestLocation: AnyObject = locations[locations.count - 1]
