@@ -6,26 +6,26 @@ provides-nominal:
 provides-member:
 - ["C4poyo19LoginViewController", ""]
 provides-dynamic-lookup:
+- "passwordField"
 - "onSignUp"
 - "didReceiveMemoryWarning"
-- "passwordField"
 - "onLogin"
-- "viewDidLoad"
 - "usernameField"
+- "viewDidLoad"
 depends-top-level:
-- !private "print"
+- "LoginViewController"
 - !private "!="
 - "StringLiteralType"
 - !private "&&"
-- "UIViewController"
-- "AnyObject"
-- !private "Void"
 - !private "=="
+- !private "Void"
+- "UIViewController"
 - !private "Bool"
+- "AnyObject"
 - !private "PFUser"
-- "UITextField"
+- !private "print"
 - !private "NSError"
-- "LoginViewController"
+- "UITextField"
 depends-member:
 - !private ["PSs9AnyObject", "PFUser"]
 - !private ["PSs9AnyObject", "code"]

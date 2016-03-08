@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 configuration.applicationId = "poyo"
                 configuration.clientKey = "asdasni3[0d;;jawkdsnllkn"
                 configuration.server = "https://poyo-develop.herokuapp.com/parse"
-            })
+            }) 
         )
         return true
     }

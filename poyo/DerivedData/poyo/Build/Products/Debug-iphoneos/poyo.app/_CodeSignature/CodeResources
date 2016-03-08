@@ -4,11 +4,23 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		J9amcvOzUUK04+v6l7+2sXtREDw=
+		</data>
+		<key>AppIcon60x60@3x.png</key>
+		<data>
+		tv7WfRDPK4HR4VvYglAvQvWSjrQ=
+		</data>
+		<key>Assets.car</key>
+		<data>
+		UFp/G6+x34wL91qRaCkFcmj4uDQ=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			X1ggHSN3EOmn7SlcCDGS4NUydzM=
+			PTsgr7xGjif3E0ANeB0NgzSMVOY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -26,7 +38,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eHuEafLMTTfbN73a8XGkZwHKHTs=
+			mjlDV2ax4ngX/L5NPILGWx1yhCg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -35,7 +47,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+djBKazel5tKI9ikETdqh3HoUtY=
+			7pbeV+z3WWunvOzugIp1Lh6x2rw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -53,7 +65,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Pej69SigGbHGpLFvQIV3Ngzb1cE=
+			DDBuFKRuU1w4mULNpgt7eYeUX8M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -62,14 +74,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GDKySDU9wmp55SpKZgp+/B+CjTo=
+			3QiWUfERwpAW3SkSWyLDw+0SfQE=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
-		2Brff53/mHG+rLuSLDXJ2hODiM4=
+		vAXL4laTJajKeYFsxUcwzVjzMdI=
 		</data>
 		<key>Frameworks/Bolts.framework/Info.plist</key>
 		<data>
@@ -85,7 +97,7 @@
 		</data>
 		<key>Frameworks/Parse.framework/Parse</key>
 		<data>
-		RmUJHpJGxgCETpnhC1fzXDsgVDs=
+		K2jyqZxfp/rEgv9uG5tlU3rOyY0=
 		</data>
 		<key>Frameworks/Parse.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -142,7 +154,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vFo9L3tZEFIZFHlFETkwDNGR6Eo=
+		uTOsYs7McfV8T41Gbl/0mPyDRkM=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -155,11 +167,23 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		J9amcvOzUUK04+v6l7+2sXtREDw=
+		</data>
+		<key>AppIcon60x60@3x.png</key>
+		<data>
+		tv7WfRDPK4HR4VvYglAvQvWSjrQ=
+		</data>
+		<key>Assets.car</key>
+		<data>
+		UFp/G6+x34wL91qRaCkFcmj4uDQ=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			X1ggHSN3EOmn7SlcCDGS4NUydzM=
+			PTsgr7xGjif3E0ANeB0NgzSMVOY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -177,7 +201,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eHuEafLMTTfbN73a8XGkZwHKHTs=
+			mjlDV2ax4ngX/L5NPILGWx1yhCg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -186,7 +210,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+djBKazel5tKI9ikETdqh3HoUtY=
+			7pbeV+z3WWunvOzugIp1Lh6x2rw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -204,7 +228,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Pej69SigGbHGpLFvQIV3Ngzb1cE=
+			DDBuFKRuU1w4mULNpgt7eYeUX8M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -213,14 +237,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GDKySDU9wmp55SpKZgp+/B+CjTo=
+			3QiWUfERwpAW3SkSWyLDw+0SfQE=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
-		2Brff53/mHG+rLuSLDXJ2hODiM4=
+		vAXL4laTJajKeYFsxUcwzVjzMdI=
 		</data>
 		<key>Frameworks/Bolts.framework/Info.plist</key>
 		<data>
@@ -236,7 +260,7 @@
 		</data>
 		<key>Frameworks/Parse.framework/Parse</key>
 		<data>
-		RmUJHpJGxgCETpnhC1fzXDsgVDs=
+		K2jyqZxfp/rEgv9uG5tlU3rOyY0=
 		</data>
 		<key>Frameworks/Parse.framework/_CodeSignature/CodeResources</key>
 		<data>

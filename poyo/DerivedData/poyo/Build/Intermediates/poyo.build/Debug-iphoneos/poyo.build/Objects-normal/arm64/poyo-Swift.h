@@ -87,6 +87,7 @@ typedef int swift_int3  __attribute__((__ext_vector_type__(3)));
 typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import CoreGraphics;
 @import CoreLocation;
 #endif
 
@@ -108,10 +109,23 @@ SWIFT_CLASS("_TtC4poyo11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIView;
+@class UILabel;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC4poyo18ListedPoyoViewCell")
 @interface ListedPoyoViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIView * __null_unspecified collapsedView;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified questionLabel;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified votesLabel;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified timeLabel;
++ (CGFloat)expandedHeight;
++ (CGFloat)defaultHeight;
+@property (nonatomic) BOOL frameAdded;
+- (void)checkHeight;
+- (void)watchFrameChanges;
+- (void)ignoreFrameChanges;
+- (void)observeValueForKeyPath:(NSString * __nullable)keyPath ofObject:(id __nullable)object change:(NSDictionary<NSString *, id> * __nullable)change context:(void * __null_unspecified)context;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * __nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
@@ -142,27 +156,32 @@ SWIFT_CLASS("_TtC4poyo14ViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSIndexPath;
 @class CLLocationManager;
 @class CLLocation;
 @class UITableView;
-@class NSIndexPath;
 
 SWIFT_CLASS("_TtC4poyo25listedPoyosViewController")
 @interface listedPoyosViewController : UIViewController <CLLocationManagerDelegate, UIScrollViewDelegate, UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, weak) IBOutlet UITableView * __null_unspecified tableView;
+@property (nonatomic, strong) NSIndexPath * __nullable selectedIndexPath;
 @property (nonatomic, strong) CLLocationManager * __nonnull locationManager;
 @property (nonatomic, strong) CLLocation * __null_unspecified location;
+@property (nonatomic) BOOL frameAdded;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (NSInteger)tableView:(UITableView * __nonnull)tableView numberOfRowsInSection:(NSInteger)section;
 - (UITableViewCell * __nonnull)tableView:(UITableView * __nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (void)tableView:(UITableView * __nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (void)tableView:(UITableView * __nonnull)tableView willDisplayCell:(UITableViewCell * __nonnull)cell forRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (void)tableView:(UITableView * __nonnull)tableView didEndDisplayingCell:(UITableViewCell * __nonnull)cell forRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (CGFloat)tableView:(UITableView * __nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (void)locationManager:(CLLocationManager * __nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * __nonnull)locations;
 - (IBAction)resetLocation:(id __nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UILabel;
 
 SWIFT_CLASS("_TtC4poyo28locationFinderViewController")
 @interface locationFinderViewController : UIViewController <CLLocationManagerDelegate>
