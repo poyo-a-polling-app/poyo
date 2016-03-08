@@ -39,7 +39,7 @@ class ComposeViewController: UIViewController, CLLocationManagerDelegate {
         } else {
             print("No location")
         }
-
+        //Make a change make a wish
 
         // Do any additional setup after loading the view.
     }

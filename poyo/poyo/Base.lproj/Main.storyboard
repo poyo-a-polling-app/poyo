@@ -95,6 +95,7 @@
                                 <state key="normal" title="Send"/>
                                 <connections>
                                     <action selector="onPost:" destination="mmS-ov-AuV" eventType="touchUpInside" id="zcb-0n-IpG"/>
+                                    <segue destination="k3L-oC-vA6" kind="show" id="vgN-9k-GJf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -267,4 +268,7 @@
             <point key="canvasLocation" x="985.5" y="384.5"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="vgN-9k-GJf"/>
+    </inferredMetricsTieBreakers>
 </document>
